@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- font link  -->
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="vendor1/aos.css">
+    <link rel="stylesheet" href="vendor/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div id="dragg" class="ui-widget-content">
+          <p>Drag me around</p>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div id="draggable" class="ui-widget-content">
+            <img src="images/specials-3.png" class="img-fluid" alt="">
+          </div>
+           
+          <div id="droppable" class="ui-widget-header">
+            <p>Drop here</p>
+          </div>
+           
+        </div>
+
+        <div class="col-lg-6">
+
+          <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+              <p>
+              Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+              ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+              amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+              odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+              </p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>
+              Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+              purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+              velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+              suscipit faucibus urna.
+              </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>
+              Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+              Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+              ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+              lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+              </p>
+              <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+              </ul>
+            </div>
+            <h3>Section 4</h3>
+            <div>
+              <p>
+              Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+              et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+              faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+              mauris vel est.
+              </p>
+              <p>
+              Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos.
+              </p>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="col-lg-6">
+          <div class="ui-widget">
+            <label for="tags">Tags: </label>
+            <input id="tags">
+          </div>
+        </div>
+
+        <div class="co-lg-6 mt-5">
+          <ul id="sortable">
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+          </ul>
+           
+        </div>
+
+
+        <div class="col-lg-6 mt-5" >
+          <div class="toggler">
+            <div id="effect" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+              <p>
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+              </p>
+            </div>
+          </div>
+           
+          <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+        </div>
+
+
+
+        <div class="col-lg-6 text-center mt-5">
+          <h2 class="counter"><span>01,234,567.</span> </h2>
+        </div>
+        <div class="col-lg-6 text-center mt-5">
+          <h2 class="counter">01,234,567. </h2>
+        </div>
+
+      </div>
+
+    </div> 
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text">
+            <a  data-filter="all" class="btn btn-primary">All</a>
+            <a  data-filter=".web" class="btn btn-warning"> web design </a>
+            <a  data-filter=".dev" class="btn btn-danger"> web Developer</a>
+            <a  data-filter=".word" class="btn btn-warning"> word press </a>
+          </div>
+       
+        </div>
+      </div>
+      <div class="row mt-4" id="hello">
+
+        <div class="col-lg-3 mix web">
+          <div class="d_img">
+            <img src="images/screencapture-fahim-adnan-fun-E-school-2023-11-20-01_27_31.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-lg-3 mix web">
+          <div class="d_img">
+            <img src="images/screencapture-fahim-adnan-fun-E-school-2023-11-20-01_27_31.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-lg-3 mix dev">
+          <div class="d_img">
+            <img src="images/screencapture-fahim-adnan-fun-E-school-2023-11-20-01_27_31.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-lg-3 mix dev">
+          <div class="d_img">
+            <img src="images/screencapture-fahim-adnan-fun-E-school-2023-11-20-01_27_31.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 mix word">
+          <div class="d_img">
+            <img src="images/screencapture-fahim-adnan-fun-E-school-2023-11-20-01_27_31.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-lg-3 mix word">
+          <div class="d_img">
+            <img src="images/screencapture-fahim-adnan-fun-E-school-2023-11-20-01_27_31.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+
+
+        <div class="row pa mb-5">
+          <div class="col-lg-3 mt-5" data-aos="fade-down">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5">
+            <div class="a_img" data-aos="fade-up">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5"  data-aos="fade-right">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5" data-aos="fade-left">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5"  data-aos="zoom-in">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5" data-aos="zoom-in-up">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5" data-aos="zoom-in-down">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5"  data-aos="zoom-in-left">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5" data-aos="zoom-in-right">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5" data-aos="zoom-out">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5" data-aos="zoom-out-up">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-5" data-aos="fade-up">
+            <div class="a_img">
+              <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          
+
+          
+          
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    
+    <script src="js/jquery.min.js" ></script>
+    <script src="vendor1/aos.js"></script>
+    <script src="vendor/mixitup.min.js"></script>
+    <script src="vendor/waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup.min.js"></script>
+    <script src="vendor/jquery-ui.js" ></script>
+    <script src="js/bootstrap.bundle.min.js"> </script>
+    <script src="js/script.js"> </script>
+
+  </body>
+</html>
